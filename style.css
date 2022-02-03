@@ -1,65 +1,53 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
-.booked-wzs-250-175-weather-customize{
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;    
-}
+.video{
+    width: calc(100% /4.09);
+    position: relative;
+    float: left;
+    padding: 5px;
+    
+  }
 
-#m-booked-weather-bl250-43022{
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;  
-}
-
-#m-booked-weather-bl250-89680{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;  
-}
-
-#m-booked-weather-bl250-5753{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;  
-}
-
-.weather-container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;  
-}
-
-.container{
-    width: 370px;
-    height: 450px;
-    background-color: green;
+  .close-x{
     position: absolute;
-    left: 85%;
-    top: 26.5%;
+    right: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    top: 0;
+    color: white;
+    cursor: pointer;
+  }
+
+  .calculator-container{
+      position: absolute;
+      margin-top: -21.5%;
+      margin-left: 22%;
+      border: white solid 2px;
+  }
+
+  .loan-container{
+    width: 370px;
+    height: 350px;
+    background-color: transparent;
+    position: absolute;
+    left: 60%;
+    top: 43.5%;
     transform: translateX(-50%) translateY(-50%);
     color: #fff;
     padding: 20px 0 0 100px;
-    border-radius: 50px;
+    border-radius: 0px;
+    
+    
 }
 
 input{
     width: 80%;
     padding: 8px;
-    margin-top: 10px;
     border: none;
-}
-
-input:focus{
-    outline: none;
 }
 
 h1{
@@ -70,11 +58,14 @@ h2{
     margin-top: 40px;
 }
 
-.video{
-    width: calc(100% /4);
-    position: relative;
-  }
+input:focus{
+    outline: none;
+}
+ 
 
-  .weather-weather{
-      margin-top: -172%;
-  }
+.logo{
+    position: absolute;
+    top: 18px;
+    left: 420px
+
+}
