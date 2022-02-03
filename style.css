@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.booked-wzs-250-175-weather-customize{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;    
+}
+
+#m-booked-weather-bl250-43022{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;  
+}
+
+#m-booked-weather-bl250-89680{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+#m-booked-weather-bl250-5753{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.weather-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.container{
+    width: 370px;
+    height: 450px;
+    background-color: green;
+    position: absolute;
+    left: 85%;
+    top: 26.5%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+    padding: 20px 0 0 100px;
+    border-radius: 50px;
+}
+
+input{
+    width: 80%;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    margin-top: 40px;
+}
+
+.video{
+    width: calc(100% /4);
+    position: relative;
+  }
+
+  .weather-weather{
+      margin-top: -172%;
+  }
